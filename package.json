@@ -1,0 +1,30 @@
+{
+  "name": "delphinus-deployment",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "build": "npx tsc",
+    "prepare": "npm run build",
+    "server": "node server/index.js"
+  },
+  "author": "ZhenXunGe",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "node-fetch": "^2.6.6",
+    "@polkadot/api": "4.5.1",
+    "@polkadot/util-crypto": "^6.11.1",
+    "substrate-ss58": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.0.2",
+    "@types/express": "^4.17.13",
+    "@types/cors": "^2.8.5",
+    "@types/jest": "^26.0.15",
+    "jest": "26.6.0",
+    "ts-jest": "^26.0.0",
+    "typescript": "^4.3.4"
+  }
+}

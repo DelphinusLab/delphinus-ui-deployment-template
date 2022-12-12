@@ -1,0 +1,5 @@
+{
+    "local_address": "ws://127.0.0.1",
+    "address": "REPLACE-WITH-SUBSTRATE-WSS",
+    "port": "9944"
+}
