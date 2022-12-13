@@ -8,6 +8,11 @@ export interface ChainConfig {
   mongodbUrl: string;
   syncEventsStep: number;
   gasWarningAmount?: string;
+  nativeCurrency?: {
+    name: string;
+    symbol: string;
+    decimals: number;
+  };
   blockExplorer?: string;
   bufferBlocks?: number;
   wsSource: string;
