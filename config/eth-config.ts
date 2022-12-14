@@ -13,13 +13,16 @@ const EthConfig = (secrets: any) => {
       syncEventsStep: 100000,
       bufferBlocks: 0,
       gasWarningAmount: "1",
+      nativeCurrency: {
+        name: "Test Binance Coin",
+        symbol: "tBNB", // 2-6 characters long
+        decimals: 18,
+      },
       blockExplorer: "https://testnet.bscscan.com",
       //rpcSource:
-        //"https://data-seed-prebsc-1-s1.binance.org:8545",
-      rpcSource:
-        "https://rpc.ankr.com/bsc_testnet_chapel/" +  secrets.ankr_id,      //ankr is only for monitor reading, for deployment, please use the above common bsc rpc source.
-      wsSource:
-        "wss://rpc.ankr.com/bsc_testnet_chapel/ws/" + secrets.ankr_id,
+      //"https://data-seed-prebsc-1-s1.binance.org:8545",
+      rpcSource: "https://rpc.ankr.com/bsc_testnet_chapel/" + secrets.ankr_id, //ankr is only for monitor reading, for deployment, please use the above common bsc rpc source.
+      wsSource: "wss://rpc.ankr.com/bsc_testnet_chapel/ws/" + secrets.ankr_id,
       privateKey: secrets.accounts.deployer.priv,
       monitorAccount: "0x4D9A852e6AECD3A6E87FecE2cA109780E45E6F2D",
       deviceId: "97",
@@ -33,13 +36,16 @@ const EthConfig = (secrets: any) => {
       syncEventsStep: 100000, //default step 0: sync to latest directly
       bufferBlocks: 0,
       gasWarningAmount: "1",
+      nativeCurrency: {
+        name: "Goerli ETH",
+        symbol: "GoETH", // 2-6 characters long
+        decimals: 18,
+      },
       blockExplorer: "https://goerli.etherscan.io",
       //rpcSource:
-        //"https://goerli.infura.io/v3/" + secrets.infura_id_goerli,
-      rpcSource:
-        "https://rpc.ankr.com/eth_goerli/" + secrets.ankr_id,   //ankr is only for monitor reading, for deployment, please use the above infura rpc source.
-      wsSource:
-        "wss://rpc.ankr.com/eth_goerli/ws/" + secrets.ankr_id,
+      //"https://goerli.infura.io/v3/" + secrets.infura_id_goerli,
+      rpcSource: "https://rpc.ankr.com/eth_goerli/" + secrets.ankr_id, //ankr is only for monitor reading, for deployment, please use the above infura rpc source.
+      wsSource: "wss://rpc.ankr.com/eth_goerli/ws/" + secrets.ankr_id,
       privateKey: secrets.accounts.deployer.priv,
       monitorAccount: "0x4D9A852e6AECD3A6E87FecE2cA109780E45E6F2D",
       deviceId: "5",
@@ -53,6 +59,11 @@ const EthConfig = (secrets: any) => {
       syncEventsStep: 2000,
       bufferBlocks: 0,
       gasWarningAmount: "20",
+      nativeCurrency: {
+        name: "Test Cronos",
+        symbol: "tCRO", // 2-6 characters long
+        decimals: 18,
+      },
       blockExplorer: "https://testnet.cronoscan.com",
       rpcSource: "https://cronos-testnet-3.crypto.org:8545",
       wsSource: "wss://cronos-testnet-3.crypto.org:8546",
@@ -67,8 +78,13 @@ const EthConfig = (secrets: any) => {
       chainName: "rolluxtestnet",
       mongodbUrl: "mongodb://localhost:27017",
       syncEventsStep: 20000,
-      bufferBlocks: 0,    //rollux take about 40 mins to generate new block so set it to 0
+      bufferBlocks: 0, //rollux take about 40 mins to generate new block so set it to 0
       gasWarningAmount: "1",
+      nativeCurrency: {
+        name: "Test Syscoin",
+        symbol: "tSYS", // 2-6 characters long
+        decimals: 18,
+      },
       blockExplorer: "https://testnet.rollux.com",
       rpcSource: "https://testnet.rollux.com:2814/",
       wsSource: "",
