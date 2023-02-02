@@ -10,7 +10,7 @@ const EthConfig = (secrets: any) => {
     {
       chainName: "bsctestnet",
       mongodbUrl: "mongodb://localhost:27017",
-      syncEventsStep: 100000,
+      syncEventsStep: 2000,
       bufferBlocks: 0,
       gasWarningAmount: "1",
       nativeCurrency: {
@@ -33,7 +33,7 @@ const EthConfig = (secrets: any) => {
     {
       chainName: "goerli",
       mongodbUrl: "mongodb://localhost:27017",
-      syncEventsStep: 100000, //default step 0: sync to latest directly
+      syncEventsStep: 2000, //default step 0: sync to latest directly
       bufferBlocks: 0,
       gasWarningAmount: "1",
       nativeCurrency: {
@@ -42,10 +42,11 @@ const EthConfig = (secrets: any) => {
         decimals: 18,
       },
       blockExplorer: "https://goerli.etherscan.io",
-      //rpcSource:
-      //"https://goerli.infura.io/v3/" + secrets.infura_id_goerli,
-      rpcSource: "https://rpc.ankr.com/eth_goerli/" + secrets.ankr_id, //ankr is only for monitor reading, for deployment, please use the above infura rpc source.
-      wsSource: "wss://rpc.ankr.com/eth_goerli/ws/" + secrets.ankr_id,
+      rpcSource:
+        "https://goerli.infura.io/v3/" + secrets.infura_id_goerli,
+      wsSource: "wss://goerli.infura.io/ws/v3/" + secrets.infura_id_goerli,  //We find ankr's goerli provider is not stable so still use infura for goerli
+      //rpcSource: "https://rpc.ankr.com/eth_goerli/" + secrets.ankr_id,
+      //wsSource: "wss://rpc.ankr.com/eth_goerli/ws/" + secrets.ankr_id,
       privateKey: secrets.accounts.deployer.priv,
       monitorAccount: "REPLACE-WITH-CLIENT-MONITOR_ACCOUNT",
       deviceId: "5",
@@ -54,22 +55,22 @@ const EthConfig = (secrets: any) => {
       isSnap: true,
     },
     {
-      chainName: "cronostestnet",
+      chainName: "cantotestnet",
       mongodbUrl: "mongodb://localhost:27017",
       syncEventsStep: 2000,
       bufferBlocks: 0,
       gasWarningAmount: "20",
       nativeCurrency: {
-        name: "Test Cronos",
-        symbol: "tCRO", // 2-6 characters long
+        name: "Test Canto",
+        symbol: "Canto", // 2-6 characters long
         decimals: 18,
       },
-      blockExplorer: "https://testnet.cronoscan.com",
-      rpcSource: "https://cronos-testnet-3.crypto.org:8545",
-      wsSource: "wss://cronos-testnet-3.crypto.org:8546",
+      blockExplorer: "https://testnet-explorer.canto.neobase.one/",
+      rpcSource: "https://eth.plexnode.wtf/",
+      wsSource: "",
       privateKey: secrets.accounts.deployer.priv,
       monitorAccount: "REPLACE-WITH-CLIENT-MONITOR_ACCOUNT",
-      deviceId: "338",
+      deviceId: "740",
       l2Account: "//Cindy//stash",
       enabled: testnet,
       isSnap: false,
