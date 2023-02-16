@@ -13,11 +13,11 @@
         "address": "0xCfC3970Db6C935398ac6457e3eB8579b7252e4B4",
         "transactionHash": "0x7d8d8a179c63a0d680e1ac68f180222903eca3bbf9711a48ea4b917fd60c2f17"
       },
-      "740": {
+      "338": {
         "events": {},
         "links": {},
-        "address": "0xd698c8a90D2579de1466614AB59eD4AC55Aa5F88",
-        "transactionHash": "0xac9b304294317f03b43c7aac2e39b4af80e9a67591955111aea18b328ea7bbd0"
+        "address": "0xBc1A43Db56dFEb6B09285b9d7e9b1E50D34B56a4",
+        "transactionHash": "0xe7b768ce627a73234ae8ba1b642d8fe546c0a6e87b533c3f0fb025a000b93751"
       },
       "2814": {
         "events": {},
@@ -39,11 +39,11 @@
         "address": "0xB7562eb55e44D9cAdB6E4698dA7BF870ADf97C36",
         "transactionHash": "0x767d23c3d0d17fb80609921130f0fd740c344b61a31b1c84754d8d32bf38a75c"
       },
-      "740": {
+      "338": {
         "events": {},
         "links": {},
-        "address": "0x0ffb96505988b808509D9a9a42906Ec8594405d9",
-        "transactionHash": "0xb39788f41f1e758f0097a01e1cb9fe5484c750ff363b3dfc10fc6406e753248e"
+        "address": "0x42d47557C21ee42DddDBf4E94d06180BE60411D2",
+        "transactionHash": "0x1c198f79b509cd4d97f49977093e7fa86088805aba60b3c752d771cc7aa8835d"
       },
       "2814": {
         "events": {},
@@ -56,26 +56,26 @@
       "5": {
         "events": {},
         "links": {},
-        "address": "0xFd2968236d5D1796fC9916c203a4366a3ffdB833",
-        "transactionHash": "0x68d04328405249bd0d9b8c1ae45ca08872cc3844085ca8e7fb98e813aa413539"
+        "address": "0xfB8C76c05e14d8CE0c65077C4484Eaf2218a5294",
+        "transactionHash": "0x5bf835da7e8082bd41a6794b6f9bc4da629610badb8f46cbcd89db81f9ebf92d"
       },
       "97": {
         "events": {},
         "links": {},
-        "address": "0xd403532e70D21F239ebAbd44982ab7Eadc620202",
-        "transactionHash": "0x121a27434bff4b0a75ab35cab128e9c6acf4bd2413805a0ca035a1a979f310e7"
+        "address": "0xa851Bb4Ff12514714292AF4AB4F76437AE03a39d",
+        "transactionHash": "0x3e28c5e8d91f969c7ba73903cf3d29d5d6514cf4e5c00805515c25f9876d6fbf"
       },
-      "740": {
+      "338": {
         "events": {},
         "links": {},
-        "address": "0x8A81921444Bc154fF2F5e16cf3fef687caeFa317",
-        "transactionHash": "0x2f69b33687799651cc8699f86a127d5e88a855128dc22feb5d33b8ddfee5bf3b"
+        "address": "0x3af3Dc2B8C0EA275D7c120E4c98538ff3608275F",
+        "transactionHash": "0xb9dedad192917249f382b034ff4964a4aa59416def6d53f05313b8ca830a5bf3"
       },
       "2814": {
         "events": {},
         "links": {},
-        "address": "0x7AA280ca82049222f7b32c67da756b1Cfb81859f",
-        "transactionHash": "0x88b3bd0195571b0a0f6800f2f30de759d3fa69acf10d8ee4f7a52c8930fd5849"
+        "address": "0x50562B60C0f434A8050fD82124c6Fc4D9440EF3E",
+        "transactionHash": "0x18dab6e5b646672b9f17485fd2fe98a21b65c010e0ba3da348b8f0ab6821b78f"
       }
     }
   },
@@ -346,7 +346,8 @@
             }
           ],
           "stateMutability": "view",
-          "type": "function"
+          "type": "function",
+          "constant": true
         },
         {
           "inputs": [
@@ -389,7 +390,8 @@
             }
           ],
           "stateMutability": "view",
-          "type": "function"
+          "type": "function",
+          "constant": true
         },
         {
           "inputs": [],
@@ -402,7 +404,8 @@
             }
           ],
           "stateMutability": "view",
-          "type": "function"
+          "type": "function",
+          "constant": true
         },
         {
           "inputs": [
@@ -463,7 +466,8 @@
             }
           ],
           "stateMutability": "view",
-          "type": "function"
+          "type": "function",
+          "constant": true
         },
         {
           "inputs": [],
@@ -476,7 +480,8 @@
             }
           ],
           "stateMutability": "view",
-          "type": "function"
+          "type": "function",
+          "constant": true
         },
         {
           "inputs": [],
@@ -489,7 +494,8 @@
             }
           ],
           "stateMutability": "view",
-          "type": "function"
+          "type": "function",
+          "constant": true
         },
         {
           "inputs": [
@@ -568,7 +574,8 @@
             }
           ],
           "stateMutability": "view",
-          "type": "function"
+          "type": "function",
+          "constant": true
         }
       ]
     },
@@ -898,8 +905,8 @@
       "name": "tToken"
     },
     {
-      "chainId": "740",
-      "address": "0ffb96505988b808509D9a9a42906Ec8594405d9",
+      "chainId": "338",
+      "address": "42d47557C21ee42DddDBf4E94d06180BE60411D2",
       "wei": 18,
       "name": "tToken"
     },
