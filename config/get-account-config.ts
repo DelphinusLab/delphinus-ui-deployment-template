@@ -25,7 +25,7 @@ async function getAccountConfig() {
 
   // generate enabled_string
   // for example, nack = 1111(15) means 4 networks in eth-config.ts should emit ack function in substrate node
-  // if we want to deprecate the 4th network, set enabled in eth-config.ts to dev, the nack is 1000(8) now
+  // if we want to deprecate the 4th network, set enabled in eth-config.ts to dev, the nack is 111(7) now
   let enabled_arr = new Array(secretKeyUri.length).fill("0");
   let configs = await getEthConfigs(L1ClientRole.Monitor);
   for(let i = 0; i < configs.length; i++) {
