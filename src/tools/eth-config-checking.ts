@@ -1,5 +1,5 @@
-import { getEnabledEthConfigs } from "../../config";
-import { L1ClientRole } from "../../types";
+import { getEnabledEthConfigs } from "../config";
+import { L1ClientRole } from "../types";
 import Web3 from "web3";
 
 async function main() {
