@@ -13,17 +13,11 @@
         "address": "0xCfC3970Db6C935398ac6457e3eB8579b7252e4B4",
         "transactionHash": "0x7d8d8a179c63a0d680e1ac68f180222903eca3bbf9711a48ea4b917fd60c2f17"
       },
-      "740": {
+      "7701": {
         "events": {},
         "links": {},
-        "address": "0xd698c8a90D2579de1466614AB59eD4AC55Aa5F88",
-        "transactionHash": "0xac9b304294317f03b43c7aac2e39b4af80e9a67591955111aea18b328ea7bbd0"
-      },
-      "2814": {
-        "events": {},
-        "links": {},
-        "address": "0xDd0a7e941BCBB79f80E69d8D8b8C398eE15AB301",
-        "transactionHash": "0x5b2904121e287d2f3d93aeb7ef756598206a601ceadd9d1d9570b467af09b9d6"
+        "address": "0x81484aB6C6749C472E36D3A9fe57770c63FCaC3e",
+        "transactionHash": "0x18a9410f0dfe5426d67008403686e6c63734fb8c5feeeef2133dd9312e407eac"
       }
     },
     "testToken": {
@@ -39,43 +33,31 @@
         "address": "0xB7562eb55e44D9cAdB6E4698dA7BF870ADf97C36",
         "transactionHash": "0x767d23c3d0d17fb80609921130f0fd740c344b61a31b1c84754d8d32bf38a75c"
       },
-      "740": {
+      "7701": {
         "events": {},
         "links": {},
-        "address": "0x0ffb96505988b808509D9a9a42906Ec8594405d9",
-        "transactionHash": "0xb39788f41f1e758f0097a01e1cb9fe5484c750ff363b3dfc10fc6406e753248e"
-      },
-      "2814": {
-        "events": {},
-        "links": {},
-        "address": "0xc484FB3E79b2894B254a74c80F193a4ec672cDED",
-        "transactionHash": "0x82558479934a2a778e8efb3106a6b5d42f0859551e64e0421e45bfb05cb68ebc"
+        "address": "0x4732210BE3283526e781056f94b27B7B58C51BCe",
+        "transactionHash": "0xb25437f26c224f2f4476e57104a6fb18a79cc557a9edc932c358c7bd6dc0b9be"
       }
     },
     "bridge": {
       "5": {
         "events": {},
         "links": {},
-        "address": "0xFd2968236d5D1796fC9916c203a4366a3ffdB833",
-        "transactionHash": "0x68d04328405249bd0d9b8c1ae45ca08872cc3844085ca8e7fb98e813aa413539"
+        "address": "0xF36998160011ee56Daa84bABBde1Cc5FaAE1f905",
+        "transactionHash": "0xdc505840c9e31e460ea146f7fb5ba664e88a8392462584528d9fa2470bfef9e9"
       },
       "97": {
         "events": {},
         "links": {},
-        "address": "0xd403532e70D21F239ebAbd44982ab7Eadc620202",
-        "transactionHash": "0x121a27434bff4b0a75ab35cab128e9c6acf4bd2413805a0ca035a1a979f310e7"
+        "address": "0x8DC4D860a0acA563b8233F2A187865f5f80598D5",
+        "transactionHash": "0x7b4a33a240a76149b0c2d36b81a53bea4100d94c23cf95a1be375e646486d331"
       },
-      "740": {
+      "7701": {
         "events": {},
         "links": {},
-        "address": "0x8A81921444Bc154fF2F5e16cf3fef687caeFa317",
-        "transactionHash": "0x2f69b33687799651cc8699f86a127d5e88a855128dc22feb5d33b8ddfee5bf3b"
-      },
-      "2814": {
-        "events": {},
-        "links": {},
-        "address": "0x7AA280ca82049222f7b32c67da756b1Cfb81859f",
-        "transactionHash": "0x88b3bd0195571b0a0f6800f2f30de759d3fa69acf10d8ee4f7a52c8930fd5849"
+        "address": "0x4ec2Ad093EbA52673d6C7DC3a75D08b7B63E5986",
+        "transactionHash": "0x3d8f2581fe4d9044ee56a14b30ac7da21a29bdf0b746c207838038425874777c"
       }
     }
   },
@@ -346,7 +328,8 @@
             }
           ],
           "stateMutability": "view",
-          "type": "function"
+          "type": "function",
+          "constant": true
         },
         {
           "inputs": [
@@ -389,7 +372,8 @@
             }
           ],
           "stateMutability": "view",
-          "type": "function"
+          "type": "function",
+          "constant": true
         },
         {
           "inputs": [],
@@ -402,7 +386,8 @@
             }
           ],
           "stateMutability": "view",
-          "type": "function"
+          "type": "function",
+          "constant": true
         },
         {
           "inputs": [
@@ -463,7 +448,8 @@
             }
           ],
           "stateMutability": "view",
-          "type": "function"
+          "type": "function",
+          "constant": true
         },
         {
           "inputs": [],
@@ -476,7 +462,8 @@
             }
           ],
           "stateMutability": "view",
-          "type": "function"
+          "type": "function",
+          "constant": true
         },
         {
           "inputs": [],
@@ -489,7 +476,8 @@
             }
           ],
           "stateMutability": "view",
-          "type": "function"
+          "type": "function",
+          "constant": true
         },
         {
           "inputs": [
@@ -568,7 +556,8 @@
             }
           ],
           "stateMutability": "view",
-          "type": "function"
+          "type": "function",
+          "constant": true
         }
       ]
     },
@@ -898,14 +887,8 @@
       "name": "tToken"
     },
     {
-      "chainId": "740",
-      "address": "0ffb96505988b808509D9a9a42906Ec8594405d9",
-      "wei": 18,
-      "name": "tToken"
-    },
-    {
-      "chainId": "2814",
-      "address": "c484FB3E79b2894B254a74c80F193a4ec672cDED",
+      "chainId": "7701",
+      "address": "4732210BE3283526e781056f94b27B7B58C51BCe",
       "wei": 18,
       "name": "tToken"
     }
