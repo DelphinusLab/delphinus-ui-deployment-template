@@ -5,7 +5,7 @@ export const Chains : Record<string, string> = {
     "16": "local-test-net2",
     "5":  "goerli",
     "97":  "bsctestnet",
-    "740": "cantotestnet",
+    "7701": "cantotestnet",
     "2814": "rolluxtestnet"
 }
 
