@@ -21,7 +21,7 @@ const EthConfig = (secrets: any) => {
       blockExplorer: "https://testnet.bscscan.com",
       //rpcSource:
       //"https://data-seed-prebsc-1-s1.binance.org:8545",
-      rpcSource: "https://data-seed-prebsc-1-s3.binance.org:8545", //Ankr is not stable, change to public source temporary.
+      rpcSource: "https://data-seed-prebsc-2-s2.binance.org:8545", //Ankr is not stable, change to public source temporary.
       wsSource: "wss://rpc.ankr.com/bsc_testnet_chapel/ws/" + secrets.ankr_id,
       privateKey: secrets.accounts.deployer.priv,
       monitorAccount: "REPLACE-WITH-CLIENT-MONITOR_ACCOUNT",
