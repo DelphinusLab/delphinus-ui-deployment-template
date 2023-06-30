@@ -7,6 +7,7 @@ export interface ChainConfig {
   chainName: string;
   mongodbUrl: string;
   syncEventsStep: number;
+  gasFeeLimit: number;
   gasWarningAmount?: string;
   nativeCurrency?: {
     name: string;

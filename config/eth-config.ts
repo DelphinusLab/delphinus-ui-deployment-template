@@ -11,6 +11,7 @@ const EthConfig = (secrets: any) => {
       chainName: "bsctestnet",
       mongodbUrl: "mongodb://localhost:27017",
       syncEventsStep: 2000,
+      gasFeeLimit: 0.01,
       bufferBlocks: 0,
       gasWarningAmount: "1",
       nativeCurrency: {
@@ -34,6 +35,7 @@ const EthConfig = (secrets: any) => {
       chainName: "goerli",
       mongodbUrl: "mongodb://localhost:27017",
       syncEventsStep: 2000, //default step 0: sync to latest directly
+      gasFeeLimit: 0.03,
       bufferBlocks: 0,
       gasWarningAmount: "1",
       nativeCurrency: {
@@ -58,6 +60,7 @@ const EthConfig = (secrets: any) => {
       chainName: "cantotestnet",
       mongodbUrl: "mongodb://localhost:27017",
       syncEventsStep: 2000,
+      gasFeeLimit: 0.5,
       bufferBlocks: 0,
       gasWarningAmount: "20",
       nativeCurrency: {
@@ -79,6 +82,7 @@ const EthConfig = (secrets: any) => {
       chainName: "rolluxtestnet",
       mongodbUrl: "mongodb://localhost:27017",
       syncEventsStep: 20000,
+      gasFeeLimit: 0,
       bufferBlocks: 0, //rollux take about 40 mins to generate new block so set it to 0
       gasWarningAmount: "1",
       nativeCurrency: {
@@ -99,6 +103,7 @@ const EthConfig = (secrets: any) => {
     {
       mongodbUrl: "mongodb://localhost:27017",
       syncEventsStep: 0,
+      gasFeeLimit: 0,
       wsSource: "ws://127.0.0.1:8546",
       rpcSource: "http://127.0.0.1:8545",
       privateKey: "",
@@ -112,6 +117,7 @@ const EthConfig = (secrets: any) => {
     {
       mongodbUrl: "mongodb://localhost:27017",
       syncEventsStep: 0,
+      gasFeeLimit: 0,
       rpcSource: "http://127.0.0.1:8745",
       wsSource: "ws://127.0.0.1:8746",
       privateKey: "",
